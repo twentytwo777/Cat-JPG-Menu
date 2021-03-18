@@ -12,4 +12,4 @@ babzoid1 - babzoid1#7584
 
 Thanks for download our project!
 
-![alt tag](https://twenty.retard.club/​‌​‌​‌‌​​​‌‌​​​‌​‌‌‌‌​​​​‌​​‌‌​​​‌​​​​‌​​‌​​​‌​‌​‌‌‌​​‌​​‌‌‌​‌‌​​‌​‌‌‌‌‌ "wtf")
+![alt tag]("https://imgur.com/a/EhQpdTT" "wtf")
