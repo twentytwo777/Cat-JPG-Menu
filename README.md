@@ -12,4 +12,7 @@ babzoid1 - babzoid1#7584
 
 Thanks for download our project!
 
-![alt tag](https://i.imgur.com/dH7QMnq.png "wtf")
+![alt tag](https://i.imgur.com/dH7QMnq.png "main_menu")
+![alt tag](https://i.imgur.com/NCJJU6k.png "new_game")
+![alt tag](https://i.imgur.com/wv93DmK.png "servers")
+![alt tag](https://i.imgur.com/sqiksqQ.png "loading")
