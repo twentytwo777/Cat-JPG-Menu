@@ -1,0 +1,298 @@
+
+UL.category LI.mapicon IMG.thumbnail
+{
+	width: 128px;
+	height: 128px;
+}
+UL.category LI.mapicon IMG.favtoggle
+{
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	visibility: hidden;
+
+	background-image: url( '../../img/favourite.png?1' );
+}
+UL.category LI.mapicon:hover IMG.favtoggle
+{
+	visibility: visible;
+}
+UL.category LI.mapicon IMG.favtoggle_always
+{
+	position: absolute;
+	top: 8px;
+	right: 8px;
+
+	background-image: url( '../../img/favourite.png?1' );
+}
+UL.category LI.mapicon IMG.faviconadd:hover
+{
+	background-image: url( '../../img/favourite_add.png?1' );
+}
+UL.category LI.mapicon IMG.faviconremove:hover
+{
+	background-image: url( '../../img/favourite_remove.png?1' );
+}
+
+UL.category LI.mapicon
+{
+	position: relative;
+	width: 128px;
+	text-align: center;
+	font-size: 10px;
+	padding: 6px;
+	margin: 2px;
+	cursor: pointer;
+	vertical-align: top;
+}
+
+UL.category LI.mapicon span {
+	word-break: break-all;
+}
+
+.maplist
+{
+	right: 256px;
+	top: 16px;
+	left: 16px;
+	bottom: 16px;
+	position: absolute;
+	color: #fff;
+	background-color: rgb(22,22,22);
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.maplist .controls
+{
+	width: 190px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	color: #fff;
+	bottom: 10px;
+}
+
+UL.category LI.mapicon.selected
+{
+	background-color: rgb(66,66,66);
+	border-radius: 3px;
+}
+
+gamesettings
+{
+	right: 16px;
+	top: 16px;
+	width: 226px;
+	bottom: 16px;
+	position: absolute;
+	background-color: rgb(22,22,22);
+	color: #fff;
+	border-radius: 5px;
+}
+
+gamesettings bottom
+{
+	bottom: 0px;
+	left: 0;
+	right: 0;
+	position: absolute;
+}
+
+gamesettings bottom button
+{
+	left: 16px;
+	right: 16px;
+	bottom: 8px;
+	padding: 10px;
+	position: absolute;
+	margin: 10px;
+	font-size: 20px;
+	width: 77%;
+}
+
+gamesettings select
+{
+	width: 100%;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #AAA;
+}
+
+.dropdown
+{
+	position: relative;
+	z-index: 100;
+}
+
+.dropdown .label
+{
+	border-radius: 3px;
+	height: 28px;
+	padding-left: 10px;
+	line-height: 28px;
+	cursor: pointer;
+
+	font-weight: bold;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(33,33,33)), to(rgb(22,22,22)));
+	border: 1px solid #CCC;
+	border-color: rgb(22,22,22) rgb(33,33,33) rgb(44,44,44);
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	vertical-align: middle;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.dropdown .contents
+{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 31px;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(33,33,33)), to(rgb(22,22,22)));
+	border-radius: 4px;
+	color: #fff;
+	border: 1px solid rgb(66,66,66);
+	display: none;
+	cursor: pointer;
+	font-size: 13px;
+	-webkit-box-shadow: 2px 2px 8px rgba( 0, 0, 0, 0.5 );
+	text-align: center;
+}
+
+.dropdown .contents div
+{
+	padding: 4px 15px;
+}
+
+.dropdown .contents div:hover
+{
+	background-color: rgb(44,44,44);
+}
+
+.caret
+{
+	width: 0;
+	height: 0;
+	vertical-align: top;
+	border-top: 5px solid white;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	content: "";
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+gamesettings .control
+{
+	margin-top: 8px;
+}
+
+gamesettings .control LABEL
+{
+	font-size: 11px;
+	color: rgb(255, 255, 255);
+}
+
+gamesettings .control:not(.control-numeric) LABEL
+{
+	position: relative;
+	top: -2px;
+}
+gamesettings .control-numeric LABEL
+{
+	line-height: 20px;
+}
+
+gamesettings .control input[type=text]
+{
+	width: 100%;
+	padding: 4px;
+}
+
+gamesettings .control-numeric
+{
+	/*height: 20px;*/
+	overflow: hidden;
+	margin-top: 4px;
+}
+
+gamesettings .control-numeric input[type=text]
+{
+	width: 44px;
+	margin-right: 8px;
+	padding: 2px;
+	float: right;
+	height: 20px;
+}
+
+.controls .search
+{
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+	padding: 4px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.controls UL
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 32px;
+}
+
+.controls LI.category
+{
+	background-color: rgb(33,33,33);
+	margin: 0;
+	margin-bottom: 5px;
+	font-size: 11px;
+	font-weight: bold;
+	border-radius: 3px;
+	color: rgb(221, 221, 221);
+	height: 26px;
+	cursor: pointer;
+	position: relative;
+}
+
+.controls LI.active
+{
+	background-color: rgb(66,66,66);
+	color: rgb(255, 255, 255);
+}
+
+.controls LI.category .name
+{
+	position: absolute;
+	left: 6px;
+	top: 6px;
+	bottom: 0;
+	right: 32px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.controls LI.category .count
+{
+	float: right;
+	background-color: rgb(55,55,55);
+	border-radius: 3px;
+	padding: 2px 5px;
+	margin: 5px;
+	color: rgb(255, 255, 255);
+	font-size: 10px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+#shutthefuckup {color: #fff;}
