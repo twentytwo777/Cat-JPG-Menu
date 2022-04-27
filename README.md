@@ -1,18 +1,8 @@
 # Cat-JPG-Menu
+## 30+ wallpapers with cat.jpg
 
-This is a GMOD Menu by twenty two and babzoid1
-
-30+ wallpapers with cat.jpg
-
-Contacts: 
-
-twenty two - twenty two#0529
-
-babzoid1 - babzoid1#7584
-
-Thanks for download our project!
-
-Installation: to the addons folder
+## Installation
+- Upload to the addons folder
 
 ![alt tag](https://i.imgur.com/KQ4cs45.png "main_menu")
 ![alt tag](https://i.imgur.com/tRvPOaa.png "new_game")
